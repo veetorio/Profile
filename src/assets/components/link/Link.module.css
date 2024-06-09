@@ -1,0 +1,23 @@
+.components::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    height: 1%;
+    background:#6554D2;
+    transform: bottom ;
+    transform: scaleX(0);
+    transition: .2s;
+}
+
+
+.components:hover{
+    bottom: 0;
+    scale: .95;
+    color: #A9A9A9;
+    filter: drop-shadow(0 0 10px #6554D2);
+}
+.components:hover::after{
+    bottom: 0;
+    transform: scaleX(1);
+}
