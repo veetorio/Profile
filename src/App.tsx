@@ -17,9 +17,9 @@ function App() {
       <Main />
       <Card />
       <Section />
-      <footer className="h-96 w-full flex-col" id="redes">
-        <div className="h-1/2 w-full flex justify-center">
-          <h1 className="text-2xl mt-20">Me segue</h1>
+      <footer className=" h-52 w-full flex-col" id="redes">
+        <div className="h-1/2 w-full flex items-center justify-center">
+          <h1 className="text-2xl ">Me segue</h1>
         </div>
         <div className=" m-auto w-1/2 h-1/2 grid gap-1 grid-cols-3 items-start place-items-center text-3xl">
           <a href="">

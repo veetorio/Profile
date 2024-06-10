@@ -35,7 +35,7 @@ function Section() {
         <div className={`flex items-center py-4 shadow-2xl ${style.custom}`}>
           <Input tag={_input1} place="nome do repositorio" type={InputType.TEXT} />
           <Input tag={_input1} place="nome do repositorio" type={InputType.NUM} />
-          <button className="h-10 w-10 flex items-center justify-center rounded-md bg-slate-950"><FaSearch /></button>
+          <button className="h-10 w-10 flex items-center justify-center rounded-md bg-slate-950 border border-indigo-600"><FaSearch /></button>
         </div>
       </div>
       <div className="h-96 overflow-y-auto">
