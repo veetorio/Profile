@@ -48,7 +48,7 @@ function Card() {
         max-[640px]:pb-10"
       >
         {icons_bg.map((e) => {
-          return <Bottom img={e.wave} icons={e.icon} />;
+          return <Bottom icons={e.icon} />;
         })}
       </section>
     </div>

@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import wave from './bg.module.css'
-console.log(wave)
 
  function Bottom(props : { icons : ReactNode}){
 
