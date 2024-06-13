@@ -8,31 +8,31 @@ import Title from "../title/Title";
 const icons_bg: BackIcon[] = [
   {
     wave: "waveJava",
-    icon: <FaJava fontSize={32} />,
+    icon: <FaJava fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-red-500"/>,
   },
   {
     wave: "waveReact",
-    icon: <FaReact fontSize={32} />,
+    icon: <FaReact fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-blue-400"/>,
   },
   {
     wave: "waveTypescript",
-    icon: <SiTypescript fontSize={32} />,
+    icon: <SiTypescript fontSize={32}className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-blue-600" />,
   },
   {
     wave: "waveSpring",
-    icon: <SiSpring fontSize={32} />,
+    icon: <SiSpring fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-green-600"/>,
   },
   {
     wave: "waveGit",
-    icon: <SiGit fontSize={32} />,
+    icon: <SiGit fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-orange-500"/>,
   },
   {
     wave: "waveGithub",
-    icon: <SiGithub fontSize={32} />,
+    icon: <SiGithub fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 fill-"/>,
   },
   {
     wave: "waveC++",
-    icon: <SiCplusplus fontSize={32} />,
+    icon: <SiCplusplus fontSize={32} className="group-hover:scale-150 transition ease-out delay-100 group-hover:fill-blue-800"/>,
   },
 ];
 

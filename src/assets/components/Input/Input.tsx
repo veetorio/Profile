@@ -1,7 +1,7 @@
 import { InputType } from "../../Interfaces/Types";
 import { ChangeEvent, LegacyRef, useCallback, useState } from "react";
 
-function Input(props: { place: string, type: InputType , tag? : LegacyRef<HTMLInputElement>}) {
+function Input(props: { place: string, type: InputType , tag : LegacyRef<HTMLInputElement>}) {
     const ev = useCallback((event :  ChangeEvent<HTMLInputElement>) => {
         setContentRepo(event.target?.value)
     },[]);

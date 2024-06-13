@@ -1,0 +1,25 @@
+
+
+.pings:nth-of-type(2n){
+    position: relative;
+    top: 0;
+    animation: ping 1s ease-in infinite alternate;
+}
+.pings:nth-of-type(2n + 1){
+    position: relative;
+    top: 0;
+    animation: ping 1.3s ease-in infinite alternate;
+}
+
+@keyframes ping {
+    from{
+    }
+    to{
+        top: -10px;
+    }
+}
+@keyframes ping2 {
+    to{
+        top: -10px;
+    }
+}

@@ -21,3 +21,19 @@
     bottom: 0;
     transform: scaleX(1);
 }
+
+@media (max-width : 640px) {
+    .components::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 50px;
+        height: 1%;
+        background:#6554D2;
+        transform: bottom ;
+        transform: scaleX(0);
+        transition: .2s;
+    }
+    
+    
+}

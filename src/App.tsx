@@ -3,6 +3,7 @@ import Header from "./assets/components/header/Header"
 import Card from "./assets/components/main/content/Card"
 import Main from "./assets/components/main/Main"
 import Section from "./assets/components/main/Section"
+import style from './assets/components/main/title/Motion.module.css'
 
 
 function App() {
@@ -11,8 +12,10 @@ function App() {
 
     <div className="w-screen h-screen bg-slate-950 text-white font-mono overflow-x-hidden scroll-smooth">
       <Header />
-      <div className="mt-20 h-1/3 pl-4 flex items-center">
-        <h1 className="text-4xl font-mono font-bold w-3/5 max-[640px]:text-2xl">{"<JaveiroCosmico> Olá,eu sou Vitorio, futuro desenvolvedor < /JaveiroCosmico>"}</h1>
+      <div className="mt-20 py-16 px-3 flex-col items-center justify-end">
+        <h1 className={`w-full ${style.click}`}>Ola meu nome é ettore</h1>
+        <h1 className={`w-full ${style.click}`}>Futuro desenvolvedor FullStack</h1>
+        <hr className="w-1/2 border-2 rounded-r-xl border-indigo-600 animate-pulse max-[640px]:w-72"/>
       </div>
       <Main />
       <Card />

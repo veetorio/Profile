@@ -1,0 +1,25 @@
+.click{
+    font-size:38px;
+    font-weight: 700;
+    overflow: hidden;
+    text-wrap: nowrap;
+    border-right: 4px solid rgb(123, 79, 255);
+    animation: pass 1s both steps(100) ;
+    transition: 1s;
+}
+
+@media (max-width : 640px) {
+    .click{
+        font-size: 1em;
+    }
+    
+}
+
+@keyframes pass{
+    from{
+        width: 0%;
+    }
+    to{
+        border-right: none;
+    }
+}
