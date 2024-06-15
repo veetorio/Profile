@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { RequestRepo } from "../../Interfaces/Types"
 import { GitHubRepositoriesDefault } from "../../Interfaces/GitGet";
 import Project from "./content/Project";
@@ -28,7 +28,7 @@ function Repos() {
     }
 
     const setterRepos = async () => {
-        const data = await GitHubRepositoriesDefault();
+        const data = await GitHubRepositoriesDefault(10);
         setRepositorios(data)
     }
 

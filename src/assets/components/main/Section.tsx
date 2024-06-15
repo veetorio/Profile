@@ -44,7 +44,7 @@ function Section() {
         </div>
       </div>
       <div>
-        <Repos list={lister || []}/>
+        <Repos/>
       </div>
     </section>
   );
