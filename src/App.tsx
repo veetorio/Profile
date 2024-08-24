@@ -25,13 +25,13 @@ function App() {
           <h1 className="text-2xl ">Me segue</h1>
         </div>
         <div className=" m-auto w-1/2 h-1/2 grid gap-1 grid-cols-3 items-start place-items-center text-3xl">
-          <a href="">
+          <a href="/linke">
             <SiLinkedin></SiLinkedin>
           </a>
-          <a href="">
+          <a href="/insta">
             <SiInstagram></SiInstagram>
           </a>
-          <a href="">
+          <a href="/git">
             <SiGithub></SiGithub>
           </a>
         </div>
